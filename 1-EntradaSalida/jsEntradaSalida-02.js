@@ -9,6 +9,7 @@ function mostrar()
 
 	nombre = "Escriba su nombre"
 	mensaje = prompt(nombre);
+	//alert es de salida
 	alert(mensaje);
 }
 
