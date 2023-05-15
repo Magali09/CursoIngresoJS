@@ -2,31 +2,43 @@
 Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
-// function sumar() 
-//  {
-//   //txtIdNumeroUno
-//   //txtIdNumeroDos
+function sumar() 
+ { 
+  
+	let numeroUno;
+	let numeroDos;
+	let suma;
+	let mensaje;
 
-// 	let numeroUno;
-// 	let numeroDos;
-// 	let suma;
-// 	let mensaje;
+	numeroUno = document.getElementById("txtIdNumeroUno").value;
+	numeroDos = document.getElementById("txtIdNumeroDos").value;
 
-// 	numeroUno = document.getElementById("txtIdNumeroUno").value;
-// 	numeroDos = document.getElementById("txtIdNumeroDos").value;
+	numeroUno = parseInt(numeroUno);
+	numeroDos = parseInt(numeroDos);
 
-// 	numeroUno = parseInt(numeroUno);
-// 	numeroDos = parseInt(numeroDos);
+	suma = numeroUno + numeroDos;
 
-// 	suma = numeroUno + numeroDos;
+	//otra manera es mensaje = "la suma es " + ( numeroUno + numeroDos) cuando encierro entre parentesis se me suma las variables
 
-// 	//otra manera es mensaje = "la suma es " + ( numeroUno + numeroDos) cuando encierro entre parentesis se me suma las variables
+	mensaje = "la suma de " + numeroUno + " + " + numeroDos + " es " + suma;
 
-// 	mensaje = "la suma de " + numeroUno + " + " + numeroDos + " es " + suma;
+	alert(mensaje);
 
-// 	alert(mensaje);
 
-// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
 /*La función parseInt comprueba el primer argumento, una cadena, 
 e intenta devolver un entero de la base especificada. 
 Por ejemplo, una base de 10 indica una conversión a número decimal, 8 octal, 16 hexadecimal, y así sucesivamente. 

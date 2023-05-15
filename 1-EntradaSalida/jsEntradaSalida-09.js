@@ -28,21 +28,22 @@ pedirle al usuario un % de descuento y mostrar el importe en el cuadro de texto 
 */
 function mostrarAumento()
 {
-	let pago;
-	let descuento;
-	let resultado;
+	 // let descuento;
+	// let resultado;
 
-	pago = document.getElementById("txtIdSueldo").value;
+	// pago = document.getElementById("txtIdSueldo").value;
 	
-	pago = parseInt(pago); 
+	// pago = parseInt(pago); 
 
-	//100 * 25 = 250
-	descuento = (pago *10) / 100;
-	//100 - 250
-	resultado = pago - descuento;
+	// //100 * 25 = 250
+	// descuento = (pago *10) / 100;
+	// //100 - 250
+	// resultado = pago - descuento;
 
-	document.getElementById("txtIdResultado").value = resultado;
+	// document.getElementById("txtIdResultado").value = resultado;
 
 
 
 }
+let pago;
+	

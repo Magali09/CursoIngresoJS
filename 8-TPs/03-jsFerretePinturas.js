@@ -13,7 +13,7 @@ function FahrenheitCentigrados ()
 	fahrenheit = document.getElementById("txtIdTemperatura").value;
 
 	fahrenheit = parseFloat(fahrenheit);
-
+	//tofixed(2) recibe unnumero redodndea los decimales siempre hay q parsear
 	centigrados = (fahrenheit - 32) * 5/9;
 
 	mensaje= fahrenheit + " Fahrenheit son: " + centigrados;

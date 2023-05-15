@@ -25,8 +25,8 @@ function Rectangulo ()
     largo = document.getElementById("txtIdLargo").value;
     ancho = document.getElementById("txtIdAncho").value;
    
-    largo = parseInt(largo);
-    ancho = parseInt(ancho);
+    largo = parseFloat(largo);
+    ancho = parseFloat(ancho);
 
     /*no lo parseo porque es la devolucion que me daria de los valores ingresados x el usuario
     alambre = parseInt(alambre);*/
